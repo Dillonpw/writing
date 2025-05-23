@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WriteFlow - A Minimalist Writing Environment
+
+WriteFlow is a distraction-free writing application designed for aspiring writers who want to focus on their craft. Whether you're working on your first novel or practicing short stories, WriteFlow provides a clean, minimal interface that helps you concentrate on what matters most - your writing.
+
+## Features
+
+- **Minimalist Interface**: A clean, distraction-free writing environment that helps you focus on your words
+- **Guided Writing Programs**: Structured writing exercises and prompts to help develop your skills
+- **Unguided Writing**: Complete freedom to write and organize your stories as you wish
+- **Story Review System**: Built-in tools for reviewing and revising your work
+- **Progress Tracking**: Monitor your writing habits and achievements
+- **Export Options**: Save your work in various formats for sharing or publishing
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/writeflow.git
+cd writeflow
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Guided Writing
+- Select from various writing programs designed for different skill levels
+- Follow structured prompts and exercises
+- Track your progress through each program
 
-## Learn More
+### Unguided Writing
+- Start a new project with a clean slate
+- Organize your stories and chapters
+- Use the minimal editor to focus on your writing
 
-To learn more about Next.js, take a look at the following resources:
+### Reviewing Your Work
+- Use built-in tools to review and revise your stories
+- Track changes and versions
+- Get insights into your writing patterns
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Acknowledgments
+
+- Inspired by the need for a simple, focused writing environment
+- Built with modern web technologies
+- Designed for writers, by writers
